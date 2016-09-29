@@ -1,6 +1,6 @@
 
 // 下载插件代码
-//npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css gulp-rename gulp-concat gulp-uglify
+//npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
 
 // gulp配置文件
 
@@ -72,7 +72,7 @@ var gulp = require('gulp'),
 	gulp.task('sync', function() {
 	    browserSync.init({
 	        server: {
-	            baseDir: "./"
+	            baseDir: "./"      //   浏览器的链接，是在后面跟下去  http://localhost:3000/src/html/css%E8%BF%9B%E9%98%B6.html
 	        }
 	    });
 
