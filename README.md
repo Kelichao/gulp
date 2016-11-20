@@ -12,9 +12,11 @@ npm -v  //查看npm版本号
 - 这里我推荐git来进行代码的bush，方便快捷[git下载地址](https://git-scm.com/downloads)
 -然后全局安装 gulp安装以后可以通过`$ gulp -v`查看版本
 ```
-$ npm install --global gulp
+$ npm install --global gulp  //全局z安装
+$ npm install --save-dev gulp  //作为项目的开发依赖（devDependencies）安装,指定某个文件夹
 ```
 # 插件下载代码 
 ```
-npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
+npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css 
+gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
 ```
