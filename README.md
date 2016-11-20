@@ -7,7 +7,9 @@
 - 由于此类自动化方案都是基于node环境的，因此这里先需要在本地搭建好node环境
 - 这里我推荐git来进行代码的bush，方便快捷[git下载地址](https://git-scm.com/downloads)
 -然后全局安装 gulp安装以后可以通过`$ gulp -v`查看版本
+```
 $ npm install --global gulp
+```
 # 插件下载代码 
 ```
 npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
