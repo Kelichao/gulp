@@ -30,7 +30,7 @@ $ npm init
 ```
 
 ## 插件下载代码 
-- 下载完毕后，package.json会多出"devDependencies"属性，里面是插件名称。
+- 下载完毕后，package.json会多出"devDependencies"属性，里面是插件名称。（大小到达150MB）
 ```
 npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
 ```
