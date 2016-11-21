@@ -12,7 +12,7 @@ npm -v  //查看npm版本号
 ```
 ## 下载并安装gulp
 - 这里我推荐git来进行代码的bush，方便快捷[git下载地址](https://git-scm.com/downloads)
--然后全局安装 gulp安装以后可以通过`$ gulp -v`查看版本
+-然后全局安装 gulp安装以后可以通过`$ gulp -v`查看版本,可以在任何一个文件夹中使用。
 ```
 $ npm install --global gulp  //全局安装。
 
@@ -21,6 +21,7 @@ $ npm install --global gulp  //全局安装。
 $ npm install --save-dev gulp 
 ```
 ### 局部安装完毕（node_modules大约为7MB）
+- 仅限在当前文件夹使用脚本命令
 ![image](https://cloud.githubusercontent.com/assets/18028533/20479491/60b49f44-b019-11e6-8dd1-072a57b94ecf.png)
 
 ## 创建一个package.json
