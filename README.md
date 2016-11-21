@@ -13,8 +13,13 @@ npm -v  //查看npm版本号
 -然后全局安装 gulp安装以后可以通过`$ gulp -v`查看版本
 ```
 $ npm install --global gulp  //全局安装。
-$ npm install --save-dev gulp  //作为项目的开发依赖（devDependencies）安装,指定某个文件夹,如果全局没办法安装。
+
+ //作为项目的开发依赖（devDependencies）安装,指定某个文件夹,如果全局没办法安装。
+ // 一般生产环境都是用局部安装方法安装的
+$ npm install --save-dev gulp 
 ```
+- 局部安装完毕（node_modules大约为7MB）
+![image](https://cloud.githubusercontent.com/assets/18028533/20479491/60b49f44-b019-11e6-8dd1-072a57b94ecf.png)
 # 插件下载代码 
 ```
 npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minify-css 
