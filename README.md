@@ -42,5 +42,5 @@ npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-minif
 ## 使用方法
 ```
 $ gulp
-$ gulp styles
+$ gulp styles // 调用gulp内部对应方法即可
 ```
