@@ -54,7 +54,7 @@ $ gulp styles // 调用gulp内部对应方法即可
     "start": "gulp scripts"
   }
 ```
-- 命令行
+**命令行**
 ```
 $ npm run log
 $ npm run start
