@@ -40,7 +40,22 @@ npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-clean
 [gulpfile.js](https://github.com/Kelichao/gulp/blob/master/gulpfile.js)
 
 ## 使用方法
+- 如果能够全局使用
 ```
 $ gulp
 $ gulp styles // 调用gulp内部对应方法即可
+```
+
+- 如果不能够全局使用（可以在scripts中写好对应调用方式）
+```json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "log": "gulp con",
+    "start": "gulp scripts"
+  }
+```
+- 命令行
+```
+$ npm run log
+$ npm run start
 ```
