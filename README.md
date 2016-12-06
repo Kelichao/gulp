@@ -36,6 +36,11 @@ $ npm init
 ```
 npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-clean gulp-livereload gulp-jshint gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
 ```
+### 如果npm下载速度很慢，推荐使用淘宝镜像cnpm
+[cnpm地址](https://npm.taobao.org/)，只需要执行一段代码
+```
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
 ## 创建一个gulpfile.js文件
 [gulpfile.js](https://github.com/Kelichao/gulp/blob/master/gulpfile.js)
 
