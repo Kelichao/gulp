@@ -66,8 +66,9 @@ $ npm run start
 ```
 
 > 如果node_modules中的模块不小心被删除了，或者不全可以使用
-
+    
+    # 修复
     $ npm install
-    # 修复
+    
     
 >　会自动下载package.json文件中列出名字的所有包模块。
