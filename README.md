@@ -64,3 +64,7 @@ $ gulp styles // 调用gulp内部对应方法即可
 $ npm run log
 $ npm run start
 ```
+> 如果node_modules中的模块不小心被删除了，或者不全可以使用
+    $ npm install
+    # 修复
+>　会自动下载package.json文件中列出名字的所有包模块。
