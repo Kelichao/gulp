@@ -1,0 +1,141 @@
+/*
+ * @css reset
+ * @author: kelichao;
+ * @update: 2016-12-20;
+ */
+
+/* 注:div,span是没有margin,padding的 */
+body,button,dd,dl,dt,fieldset,form,
+h1,h2,h3,h4,h5,h6,hr,input,legend,
+li,ol,p,pre,td,textarea,th,ul {margin: 0;padding:0;outline:none;}
+
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+body,button,input,select,textarea {font-size:12px;font-family:;}
+address,cite,dfn,em,var,i{font-style:normal;}
+strong {font-weight:normal;}
+small {font-size:12px}
+ol,ul,li {list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+legend{color:#000}
+button,input,select,textarea{font-size:100%}
+table {border-collapse:collapse;border-spacing:0;border:1px solid}
+tr,td{border:1px solid}
+
+/* --------------------single CSS start----------------------- */
+
+/* display */
+.hide{display:none;}
+.di{display:inline;}
+.db{display:block;}
+.dib{display:inline-block;}
+
+/* height */
+.h14{height:14px;}
+.h16{height:16px;}
+.h18{height:18px;}
+.h20{height:20px;}
+.h22{height:22px;}
+.h24{height:24px;}
+
+/* line-height */
+.lh14{line-height:14px;}
+.lh16{line-height:16px;}
+.lh18{line-height:18px;}
+.lh20{line-height:20px;}
+.lh22{line-height:22px;}
+.lh24{line-height:24px;}
+
+/* font-size */
+.f0{font-size:0;}
+.f10{font-size:10px;}
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+
+/* font-family */
+.fa{font-family:Arial;}
+.ft{font-family:Tahoma;}
+.fv{font-family:Verdana;}
+.fs{font-family:Simsun;}
+.fl{font-family:'Lucida Console';}
+.fw{font-family:'Microsoft Yahei';}
+
+/* font-color */
+.cw{color:white;}
+.cb{color:black;}
+.cr{color:red;}
+
+/* font-style */
+.fwn{font-weight:normal; font-style:normal;}
+.fwb{font-weight:bold;}
+.fsi{font-style:italic;}
+
+/* text-align */
+.center{text-align:center;}
+.tar{text-align:right;}
+.tal{text-align:left;}
+
+/* text-decoration */
+.tdu{text-decoration:underline;}
+
+/* css3过渡动画效果 */
+.trans3{-webkit-transition:all 0.3s;transition:all 0.3s;}
+.trans5{-webkit-transition:all 0.5s;transition:all 0.5s;}
+.trans8{-webkit-transition:all 0.8s;transition:all 0.8s;}
+.trans10{-webkit-transition:all 1s;transition:all 1s;}
+
+/* 单行文字溢出虚点显 示*/
+.ell{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+
+/* 浮动 */
+.fl{float:left}
+.fr{float:right}
+
+/* 鼠标手势 */
+.cp{cursor:pointer;}
+.cd{cursor:default;}
+.cna{cursor:not-allowed;}
+
+/* position */
+.pr{position:relative}
+.pa{position:absolute}
+.pf{position:fixed;}
+
+/*用于absolute或者fixed定位,任意类型元素的水平居中(要求：1.宽度必须要有)*/
+.pauto{left:0;right:0;margin-left:auto;margin-right:auto;}
+
+/* 块元素水平居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
+.auto{margin-left:auto;margin-right:auto;display:block;}
+
+/*清除浮动*/
+.fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+
+/*在IE6/7中通过zoom:1可以触发hasLayout。*/
+.fix{zoom:1;}
+
+/* vertical-align */
+.vam{vertical-align:middle;}
+.vab{vertical-align:bottom;}
+.vat{vertical-align:top;}
+.vatb{vertical-align:text-bottom;}
+
+/* visibility */
+.vh{visibility:hidden;}
+.vv{visibility:visible;}
+
+/* zoom */
+.z{*zoom:1;}
+
+/* 加载中背景图片 - 如果您使用该CSS小库，务必修改此图片地址 */
+.loading{background:url() no-repeat center;}
+
+/* 按钮禁用，如果有disabled则return */
+.disabled{color:#acacac;border-color:#acacac;text-shadow:1px 1px #fff;outline:0;cursor:default;pointer-events:none;}
+.disabled:hover{text-decoration:none;}
+
+/* ------------------- single CSS end------------------ */
