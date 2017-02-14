@@ -33,7 +33,30 @@ $ npm install -g gulp-cli # 通过cli命令可以将 局部安装命令进行全
 ```git
 $ npm init
 ```
+![image](https://cloud.githubusercontent.com/assets/18028533/22916249/4eede298-f2b8-11e6-9b99-80912c18aa32.png)
 
+> package.json代码
+
+```json
+{
+  "name": "kit-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kelichao",
+  "license": "ISC"
+}
+
+```
 ## 插件下载代码 
 - 下载完毕后，package.json会多出"devDependencies"属性，里面是插件名称。（大小到达150MB）
 ```
