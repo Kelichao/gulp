@@ -34,7 +34,8 @@ $ npm init
 ## 插件下载代码 
 - 下载完毕后，package.json会多出"devDependencies"属性，里面是插件名称。（大小到达150MB）
 ```
-npm install --save-dev gulp-sass browser-sync gulp-imagemin gulp-gzip gulp-clean gulp-livereload gulp-jshint gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
+$ npm install --save-dev browser-sync gulp-imagemin gulp-gzip gulp-clean gulp-livereload gulp-minify-css gulp-rename gulp-concat gulp-uglify gulp-notify gulp-cache
+
 ```
 ### 如果npm下载速度很慢，推荐使用淘宝镜像cnpm
 [cnpm地址](https://npm.taobao.org/)，只需要执行一段代码
