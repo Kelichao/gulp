@@ -21,6 +21,10 @@ $ npm install --global gulp  //全局安装。
  // 这里要注意的是如果在桌面的文件夹下面bush可能node_module在桌面，而且不能重复安装
 $ npm install --save-dev gulp 
 ```
+## cli命令
+```
+npm install -g gulp-cli # 通过cli命令可以将 局部安装命令进行全局调用
+```
 ### 局部安装完毕（node_modules大约为7MB）
 - 仅限在当前文件夹使用脚本命令
 ![image](https://cloud.githubusercontent.com/assets/18028533/20479491/60b49f44-b019-11e6-8dd1-072a57b94ecf.png)
