@@ -99,3 +99,9 @@ $ npm run start
     
     
 >　会自动下载package.json文件中列出名字的所有包模块。
+
+## 目录结构
+- www内部为源码目录
+- dist为输出目录
+
+![default](https://cloud.githubusercontent.com/assets/18028533/23010926/0133cb60-f459-11e6-84eb-e12b5dae7790.png)
