@@ -105,3 +105,46 @@ $ npm run start
 - dist为输出目录
 
 ![default](https://cloud.githubusercontent.com/assets/18028533/23010926/0133cb60-f459-11e6-84eb-e12b5dae7790.png)
+
+# 安装插件方法二
+> 只需写好一个完整组件的package.json文件，然后执行 `$ npm install即可下载需要依赖的插件`
+
+```json
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-gzip": "^1.4.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp scripts"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+```
+
+
+>  然后执行 
+
+`$ npm install即可下载附带插件`
