@@ -15,3 +15,6 @@ npm init #生成package.json文件
 #引用
 
 http://www.jianshu.com/p/42e11515c10f
+
+
+http://www.jianshu.com/p/b95bbcfc590d
