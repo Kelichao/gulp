@@ -12,7 +12,7 @@ npm install --save-dev webpack #安装
 
 npm init #生成package.json文件
 ```
-#引用
+#引用处
 
 http://www.jianshu.com/p/42e11515c10f
 
