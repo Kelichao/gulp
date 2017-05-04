@@ -76,9 +76,9 @@ module.exports = "现在的内容是来自于content.js文件！";
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var y = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./style.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+// var y = require("!style!css!./style.css");// 有点问题，报错
 var x = __webpack_require__(0)
-document.write(x);
+document.write(x + "大家好");
 
 /***/ })
 /******/ ]);
