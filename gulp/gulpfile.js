@@ -21,9 +21,13 @@ var gulp = require('gulp'),
     // 静态服务器
 	gulp.task('sync', function() {
 	    browserSync.init({
+		// 设置初始路径
+    	        // startPath: "/views/index.html",
 	        server: {
 	            baseDir: "./"
-	        }
+	        },
+		// 设置端口
+		//port: 3033
 	    });
 
 	    gulp.watch("src/html/*.html")
